@@ -4,5 +4,18 @@
         <name>ChatPlatform</name>
     </assembly>
     <members>
+        <member name="M:ChatPlatform.Controllers.ChatController.GetChatHistory">
+            <summary>
+            Get Chat history
+            </summary>
+        </member>
+        <member name="M:ChatPlatform.Controllers.ChatController.SendMessage(ChatPlatform.Model.ChatCreate)">
+            <param name="message">
+             a ChatCreate Object
+            </param>
+             <summary>
+             Send Message
+             </summary>
+        </member>
     </members>
 </doc>

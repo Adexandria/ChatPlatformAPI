@@ -70,3 +70,4 @@ C:\Users\T14\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\runt
 C:\Users\T14\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\T14\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\Mapster.dll
 C:\Users\T14\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\Mapster.Core.dll
+C:\Users\T14\source\repos\ChatPlatform\ChatPlatform\bin\Debug\netcoreapp3.1\web.config

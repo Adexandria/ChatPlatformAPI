@@ -18,6 +18,12 @@ namespace ChatPlatform.Controllers
             this._chatDb = _chatDb;
         }
 
+        /// <summary>
+        /// Get Chat history
+        /// </summary>
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Produces("application/json")]
         [HttpGet]
         public IActionResult GetChatHistory()
         {
@@ -42,6 +48,15 @@ namespace ChatPlatform.Controllers
             }
         }
 
+        ///<param name="message">
+        /// A ChatCreate Object
+        ///</param>
+        /// <summary>
+        /// Send Message
+        /// </summary>
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Produces("application/json")]
         [HttpPost]
         public async Task<ActionResult> SendMessage(ChatCreate message)
         {
