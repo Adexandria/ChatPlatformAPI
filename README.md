@@ -12,7 +12,7 @@ A Rest API Chat Platform
 
 ### Documentation
 The API include two functionalities:
-- [Send Message](https://chatplatform.azurewebsites.net/index.html/api/chat) : This is a POST function that allow users to send message and it's also stores the chat in the user's cookie.
+- Send Message: This is a POST function that allow users to send message and it's also stores the chat in the user's cookie.
 
 ```
 curl -X 'POST' \
@@ -25,9 +25,9 @@ curl -X 'POST' \
 }'
 ```
 
-- [Get Chat History](https://chatplatform.azurewebsites.net/index.html/api/chat) : This is a GET function that gets chat history. 
-```
+- Get Chat History : This is a GET function that gets chat history. 
 
+```
 curl -X 'GET' \
   'https://chatplatform.azurewebsites.net/api/Chat' \
   -H 'accept: */*'
